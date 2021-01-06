@@ -4,6 +4,7 @@
     position: relative;
     width: 80%;
     padding: 15px 15px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     background-color: $isabelline;
@@ -21,6 +22,22 @@
     }
     &.container-row {
         flex-direction: row;
+    }
+    &.card-small {
+        @media (min-width: 600px) {
+            width: 40%;
+            margin: 0 5px;
+        }
+    }
+    &.card-medium {
+        @media (min-width: 600px) {
+            width: 70%;
+        }
+    }
+    &.card-large {
+        @media (min-width: 600px) {
+            width: 100%;
+        }
     }
     .header-section {
         display: flex;
