@@ -22,7 +22,7 @@ export default function Projects() {
                 <div className={styles.subsection}>
                     <div className={styles["card-container"]}>
                         <Card title="" size="medium">
-                            <ImageOverlay src="/mancala.png" height={400} width={800} url="https://mancala.tomvannes.dev" alt="Picture of game" />
+                            <ImageOverlay src="/mancala.PNG" height={400} width={800} url="https://mancala.tomvannes.dev" alt="Picture of game" />
                             <p>
                                 Mancala is a traditional board game of which a form exists in many countries. I built a version of the game that you can play
                                 with friends, against a stranger or against an AI. The frontend is built with VueJS, the backend is NodeJS with ExpressJS using

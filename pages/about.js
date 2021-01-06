@@ -66,7 +66,7 @@ export default function About() {
                     </div>
 
                     <div className={styles["card-container"]}>
-                        <Card size="large">
+                        <Card size="large" margin="my">
                             <Chrono
                                 style={{ fontSize: "10px!important" }}
                                 items={items}

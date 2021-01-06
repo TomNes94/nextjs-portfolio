@@ -3,7 +3,7 @@
 .card-container {
     position: relative;
     width: 80%;
-    padding: 15px 15px;
+    padding: 15px;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -38,6 +38,9 @@
         @media (min-width: 600px) {
             width: 100%;
         }
+    }
+    &.my {
+        padding: 15px 0px;
     }
     .header-section {
         display: flex;
