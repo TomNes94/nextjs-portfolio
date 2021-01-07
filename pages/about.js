@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Card from "../components/Card";
 import Head from "next/head";
 import { Chrono } from "react-chrono";
-
+import Image from "next/image";
 import styles from "../styles/About.module.scss";
 
 export default function About() {
@@ -23,7 +23,7 @@ export default function About() {
             cardSubtitle: "Rijksuniversiteit Groningen",
         },
         {
-            title: "Apr 2019 - Current",
+            title: "Sep 2018 - Current",
             cardTitle: "Web Developer",
             cardSubtitle: "ValueMetrics B.V.",
         },
@@ -46,9 +46,11 @@ export default function About() {
                     <div className={styles["card-container"]}>
                         <Card size="large">
                             <p>
-                                Work as a hobby: my career in a nutshell. Since 2 years I do front- and backend programming professionally. I make the UI do
-                                what functionally should do. Preferably NodeJS, Vue.js, and Typescript. I try do so by learning something new everyday.
+                                I am Tom van Nes, living in Utrecht for a few years now. What started as hobby is now an amazing day job: since 2 years I do
+                                front- and backend programming professionally. I make a UI do what it functionally should do. Preferably NodeJS, Vue.js, and
+                                Typescript. I try do so by learning something new everyday.
                             </p>
+                            <p>Off-screen I like to play soccer, over-the-top cooking and am proud indoor gardener.</p>
                         </Card>
                         <Card title="Skills" size="large">
                             <div className={styles["horizontal-card"]}>
@@ -64,18 +66,20 @@ export default function About() {
                             </div>
                         </Card>
                     </div>
-
                     <div className={styles["card-container"]}>
-                        <Card size="large" margin="my">
-                            <Chrono
-                                style={{ fontSize: "10px!important" }}
-                                items={items}
-                                mode="VERTICAL"
-                                hideControls={true}
-                                theme={{ primary: "black", secondary: "transparent", cardBgColor: "white", cardForeColor: "black" }}
-                            />
-                        </Card>
+                        <img className={styles["personal-image"]} src="/personal_photo.jpg" alt="Photo of me" />
                     </div>
+                </div>
+                <div className={styles["card-container"]}>
+                    <Card size="medium" margin="my">
+                        <Chrono
+                            style={{ fontSize: "10px!important" }}
+                            items={items}
+                            mode="VERTICAL"
+                            hideControls={true}
+                            theme={{ primary: "black", secondary: "transparent", cardBgColor: "white", cardForeColor: "black" }}
+                        />
+                    </Card>
                 </div>
             </main>
 
