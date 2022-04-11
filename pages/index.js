@@ -22,9 +22,9 @@ export default function Home() {
       <main className={styles.main}>
         <Card title="Hi!" photoSrc="/photo.jpg" size="small">
           <p>
-            My name is Tom van Nes. I am a web developer working at LINKIT.
-            Creating web application backends and supporting user interfaces is
-            what I do.
+            My name is Tom van Nes. Currently, I am a web developer working at
+            EatMyRide. I create mobile and web applications, and the backend
+            infrastructure that comes with it.
           </p>
         </Card>
       </main>

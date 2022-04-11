@@ -27,9 +27,14 @@ export default function About() {
       cardSubtitle: "ValueMetrics B.V.",
     },
     {
-      title: "Jul 2021 - Current",
+      title: "Jul 2021 - Feb 2022",
       cardTitle: "Fullstack Javascript Developer",
       cardSubtitle: "LINKIT B.V.",
+    },
+    {
+      title: "Mar 2022 - Current",
+      cardTitle: "Fullstack Developer",
+      cardSubtitle: "EatMyRide B.V.",
     },
   ];
 
@@ -54,7 +59,7 @@ export default function About() {
             <Card size="large">
               <p>
                 I am Tom van Nes, living in Utrecht for a few years now. What
-                started as hobby is now an amazing day job: since 2 years I do
+                started as hobby is now an amazing day job: since 3 years I do
                 front- and backend programming professionally. I make a UI do
                 what it functionally should do. Preferably NodeJS, Vue.js, and
                 Typescript. I try do so by learning something new everyday.
